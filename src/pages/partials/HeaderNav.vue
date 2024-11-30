@@ -11,18 +11,18 @@
         <strong v-if="!isMobile" class="header-text">{{ titleText }}</strong>
       </a>
       <div class="button-group">
-        <!-- 注释或删除以下链接 -->
-        <!--
         <a
-          href="https://niceshare.site/?ref=markdown.lovejade.cn"
+          href="https://liuxiaolin.notion.site/Markdown-bcf20a9190db4b208dc137f755788405"
           class="header-link"
           target="_blank"
           rel="noopener"
         >
-          <span class="hint--bottom" aria-label="逍遥自在轩">
-            <icon class="header-icon" name="homepage" />
+          <span class="hint--bottom" aria-label="Markdown 语法速查">
+            <icon class="header-icon" name="document" />
           </span>
         </a>
+        <!-- 注释或删除以下链接 -->
+        <!--		
         <a
           v-if="!isMobile"
           href="https://quickapp.lovejade.cn/?ref=markdown.lovejade.cn"
